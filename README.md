@@ -1,2 +1,2 @@
 # Maos
-Web baca komik Maos
+just only one page web 
