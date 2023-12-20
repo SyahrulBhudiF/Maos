@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maos</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <script>
+      <!-- digunakan untuk membuat navbar tetap berada diatas ketika discroll -->
+      window.addEventListener("scroll", function () {
+        var navList = document.querySelector(".nav-list");
+        if (window.scrollY > 0) {
+          navList.classList.add("sticky");
+        } else {
+          navList.classList.remove("sticky");
+        }
+      });
+    </script>
+  </head>
+  <!-- end head -->
+
+  <!-- Body -->
+  <body>
+    <!-- Navbar -->
+    <header class="navbar-container">
+      <div class="logo">
+        `
+        <a href="index.html"
+          ><img src="assets/logo.png" alt="Logo" id="Home"
+        /></a>
+      </div>
+
+      <nav class="nav-list">
+        <ul>
+          <li><a class="nav-text" href="#Home">Home</a></li>
+          <li><a class="nav-text" href="#">List</a></li>
+          <li><a class="nav-text" href="#">Popular</a></li>
+          <li><a class="nav-text" href="#profile">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- end navbar -->
+
+    <main>
+      <div id="content" style="margin-bottom: 20px !important">
+        <!-- content 1 -->
+        <article>
+          <div class="card-wrapper">
+            <div class="card-container">
+              <div class="card hot-list">
+                <h5 class="title">HOT KOMIK UPDATE</h5>
+                <hr class="hr" />
+                <div class="list-img highlight">
+                  <a
+                    href=""
+                    style="text-decoration: none"
+                    class="img-container">
+                    <img src="assets/apoteosis.jpg" alt="apoteosis" />
+                    <span> <b>Apotheosis</b><br /><br />Ch. 1086 </span>
+                  </a>
+                  <a
+                    href=""
+                    style="text-decoration: none"
+                    class="img-container">
+                    <img src="assets/heavenly.jpg" alt="heavenly" />
+                    <span><b>Heavenly Demon</b><br /><br />Ch. 98</span>
+                  </a>
+                  <a
+                    href=""
+                    style="text-decoration: none"
+                    class="img-container">
+                    <img src="assets/tutorial.jpg" alt="tutorial" />
+                    <span><b>The tutorial tower</b><br /><br />Ch. 162</span>
+                  </a>
+                  <a
+                    href=""
+                    style="text-decoration: none"
+                    class="img-container">
+                    <img src="assets/darkMage.jpg" alt="darkMage" />
+                    <span><b>The Dark Mage</b><br /><br />Ch. 18</span>
+                  </a>
+                  <a
+                    href=""
+                    style="text-decoration: none"
+                    class="img-container">
+                    <img src="assets/magic-emperor.jpg" alt="magic-emperor" />
+                    <span><b>Magic Emperor</b><br /><br />Ch. 406</span>
+                  </a>
+                  <a
+                    href=""
+                    style="text-decoration: none"
+                    class="img-container">
+                    <img src="assets/yuanZun.jpg" alt="yuanZun" />
+                    <span><b>Yuan Zun</b><br /><br />Ch. 500</span>
+                  </a>
+                  <a
+                    href=""
+                    style="text-decoration: none"
+                    class="img-container">
+                    <img src="assets/tokyo.png" alt="tokyo" />
+                    <span><b>Tokyo Revengers</b><br /><br />Ch. 20</span>
+                  </a>
+                  <a
+                    href=""
+                    style="text-decoration: none"
+                    class="img-container">
+                    <img src="assets/ending.jpg" alt="ending" />
+                    <span><b>Ending Maker</b><br /><br />Ch. 43</span>
+                  </a>
+                  <a
+                    href=""
+                    style="text-decoration: none"
+                    class="img-container">
+                    <img src="assets/sololvl.jpg" alt="sololvl" />
+                    <span><b>Solo Leveling</b><br /><br />Ch. 179.2</span>
+                  </a>
+                  <a
+                    href=""
+                    style="text-decoration: none"
+                    class="img-container">
+                    <img src="assets/relife.jpg" alt="relife" />
+                    <span><b>Relife Player</b><br /><br />Ch. 46</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- end content 1 -->
+
+        <!-- content 2 -->
+        <article style="padding-right: 0 !important">
+          <div class="card-wrapper">
+            <div class="content2-container">
+              <div class="card-container content2">
+                <div class="card definner-content">
+                  <div class="title-container">
+                    <h5 class="title">UPDATE PROJECT</h5>
+                    <a href="#"><button class="btn">View All</button></a>
+                  </div>
+                  <hr class="hr" />
+                  <div class="list-img" style="padding: 10px">
+                    <div class="card-container-contents">
+                      <a
+                        href=""
+                        style="text-decoration: none"
+                        class="img-container2">
+                        <img src="assets/sololvl.jpg" alt="sololvl" />
+                        <div class="btn-container">
+                          <span><b>Solo Leveling</b><br /></span>
+                          <a href=""><button>Ch. 179.2</button></a>
+                          <a href=""><button>Ch. 179.1</button></a>
+                          <a href=""><button>Ch. 178</button></a>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="card-container-contents">
+                      <a
+                        href=""
+                        style="text-decoration: none"
+                        class="img-container2">
+                        <img src="assets/apoteosis.jpg" alt="apoteosis" />
+                        <div class="btn-container">
+                          <span><b>Aphoteosis</b><br /></span>
+                          <a href=""><button>Ch. 1086</button></a>
+                          <a href=""><button>Ch. 1085</button></a>
+                          <a href=""><button>Ch. 1084</button></a>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="card-container-contents">
+                      <a
+                        href=""
+                        style="text-decoration: none"
+                        class="img-container2">
+                        <img src="assets/tokyo.png" alt="tokyo" />
+                        <div class="btn-container">
+                          <span><b>Tokyo Revengers</b><br /></span>
+                          <a href=""><button>Ch. 20</button></a>
+                          <a href=""><button>Ch. 19</button></a>
+                          <a href=""><button>Ch. 18</button></a>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="card-container-contents">
+                      <a
+                        href=""
+                        style="text-decoration: none"
+                        class="img-container2">
+                        <img src="assets/ending.jpg" alt="ending" />
+                        <div class="btn-container">
+                          <span><b>Ending Maker</b><br /></span>
+                          <a href=""><button>Ch. 43</button></a>
+                          <a href=""><button>Ch. 42</button></a>
+                          <a href=""><button>Ch. 41</button></a>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="card-container-contents">
+                      <a
+                        href=""
+                        style="text-decoration: none"
+                        class="img-container2">
+                        <img src="assets/relife.jpg" alt="relife" />
+                        <div class="btn-container">
+                          <span><b>Relife Player</b><br /></span>
+                          <a href=""><button>Ch. 46</button></a>
+                          <a href=""><button>Ch. 45</button></a>
+                          <a href=""><button>Ch. 43</button></a>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="card-container-contents">
+                      <a
+                        href=""
+                        style="text-decoration: none"
+                        class="img-container2">
+                        <img src="assets/yuanzun.jpg" alt="yuanzun" />
+                        <div class="btn-container">
+                          <span><b>Yuan Zun</b><br /></span>
+                          <a href=""><button>Ch. 500</button></a>
+                          <a href=""><button>Ch. 499</button></a>
+                          <a href=""><button>Ch. 498</button></a>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="card-container-contents">
+                      <a
+                        href=""
+                        style="text-decoration: none"
+                        class="img-container2">
+                        <img
+                          src="assets/magic-emperor.jpg"
+                          alt="magic-emperor" />
+                        <div class="btn-container">
+                          <span><b>Magic Emperor</b><br /></span>
+                          <a href=""><button>Ch. 406</button></a>
+                          <a href=""><button>Ch. 405</button></a>
+                          <a href=""><button>Ch. 404</button></a>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="card-container-contents">
+                      <a
+                        href=""
+                        style="text-decoration: none"
+                        class="img-container2">
+                        <img src="assets/darkMage.jpg" alt="darkMage" />
+                        <div class="btn-container">
+                          <span><b>The Dark Mage</b><br /></span>
+                          <a href=""><button>Ch. 18</button></a>
+                          <a href=""><button>Ch. 17</button></a>
+                          <a href=""><button>Ch. 16</button></a>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="card-container-contents">
+                      <a
+                        href=""
+                        style="text-decoration: none"
+                        class="img-container2">
+                        <img src="assets/martialpeak.jpg" alt="martialpeak" />
+                        <div class="btn-container">
+                          <span><b>Martial Peak</b><br /></span>
+                          <a href=""><button>Ch. 3405</button></a>
+                          <a href=""><button>Ch. 3404</button></a>
+                          <a href=""><button>Ch. 3403</button></a>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="card-container-contents">
+                      <a
+                        href=""
+                        style="text-decoration: none"
+                        class="img-container2">
+                        <img src="assets/asura.jpg" alt="asura" />
+                        <div class="btn-container">
+                          <span><b>Martial God Asura</b><br /></span>
+                          <a href=""><button>Ch. 702</button></a>
+                          <a href=""><button>Ch. 701</button></a>
+                          <a href=""><button>Ch. 700</button></a>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="card-container-contents">
+                      <a
+                        href=""
+                        style="text-decoration: none"
+                        class="img-container2">
+                        <img src="assets/ironladies.jpeg" alt="ironladies" />
+                        <div class="btn-container">
+                          <span><b>Iron Ladies</b><br /></span>
+                          <a href=""><button>Ch. 435</button></a>
+                          <a href=""><button>Ch. 434</button></a>
+                          <a href=""><button>Ch. 433</button></a>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="card-container-contents">
+                      <a
+                        href=""
+                        style="text-decoration: none"
+                        class="img-container2">
+                        <img src="assets/notdie.jpg" alt="notdie" />
+                        <div class="btn-container">
+                          <span><b>To Not Die</b><br /></span>
+                          <a href=""><button>Ch. 91</button></a>
+                          <a href=""><button>Ch. 90</button></a>
+                          <a href=""><button>Ch. 89</button></a>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="card-container-contents">
+                      <a
+                        href=""
+                        style="text-decoration: none"
+                        class="img-container2">
+                        <img src="assets/vinland.jpg" alt="vinland" />
+                        <div class="btn-container">
+                          <span><b>Vinland Saga</b><br /></span>
+                          <a href=""><button>Ch. 203</button></a>
+                          <a href=""><button>Ch. 202</button></a>
+                          <a href=""><button>Ch. 201</button></a>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="card-container-contents">
+                      <a
+                        href=""
+                        style="text-decoration: none"
+                        class="img-container2">
+                        <img src="assets/peerles.jpg" alt="peerles" />
+                        <div class="btn-container">
+                          <span><b>Peerless Soul</b><br /></span>
+                          <a href=""><button>Ch. 482</button></a>
+                          <a href=""><button>Ch. 481</button></a>
+                          <a href=""><button>Ch. 479</button></a>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="card-container-contents">
+                      <a
+                        href=""
+                        style="text-decoration: none"
+                        class="img-container2">
+                        <img src="assets/jujutsu.jpg" alt="jujutsu" />
+                        <div class="btn-container">
+                          <span><b>Jujutsu Kaisen</b><br /></span>
+                          <a href=""><button>Ch. 227</button></a>
+                          <a href=""><button>Ch. 226</button></a>
+                          <a href=""><button>Ch. 225</button></a>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="card-container-contents">
+                      <a
+                        href=""
+                        style="text-decoration: none"
+                        class="img-container2">
+                        <img src="assets/pupil.jpg" alt="pupil" />
+                        <div class="btn-container">
+                          <span><b>Pupillary Master</b><br /></span>
+                          <a href=""><button>Ch. 335</button></a>
+                          <a href=""><button>Ch. 334</button></a>
+                          <a href=""><button>Ch. 333</button></a>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="card-container-contents">
+                      <a
+                        href=""
+                        style="text-decoration: none"
+                        class="img-container2">
+                        <img src="assets/death.jpg" alt="death" />
+                        <div class="btn-container">
+                          <span><b>Death God</b><br /></span>
+                          <a href=""><button>Ch. 47</button></a>
+                          <a href=""><button>Ch. 46</button></a>
+                          <a href=""><button>Ch. 45</button></a>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="card-container-contents">
+                      <a
+                        href=""
+                        style="text-decoration: none"
+                        class="img-container2">
+                        <img src="assets/ranker.jpg" alt="ranker" />
+                        <div class="btn-container">
+                          <span
+                            ><b>Ranker Who Lives a Second Time</b><br
+                          /></span>
+                          <a href=""><button>Ch. 161</button></a>
+                          <a href=""><button>Ch. 160</button></a>
+                          <a href=""><button>Ch. 159</button></a>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="card-container-contents">
+                      <a
+                        href=""
+                        style="text-decoration: none"
+                        class="img-container2">
+                        <img src="assets/oshi.jpg" alt="oshi" />
+                        <div class="btn-container">
+                          <span><b>Oshi no Ko</b><br /></span>
+                          <a href=""><button>Ch. 122</button></a>
+                          <a href=""><button>Ch. 121</button></a>
+                          <a href=""><button>Ch. 120</button></a>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="card-container-contents">
+                      <a
+                        href=""
+                        style="text-decoration: none"
+                        class="img-container2">
+                        <img src="assets/worn.jpg" alt="worn" />
+                        <div class="btn-container">
+                          <span><b>Worn and Torn Newbie</b><br /></span>
+                          <a href=""><button>Ch. 149</button></a>
+                          <a href=""><button>Ch. 148</button></a>
+                          <a href=""><button>Ch. 147</button></a>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- aside -->
+              <aside class="side" style="margin-right: 0 !important">
+                <div
+                  class="card-wrapper"
+                  style="padding: 0 !important; margin-right: 0 !important">
+                  <div class="card-container ranking">
+                    <div class="card ranker-card">
+                      <h5 class="title">HOT KOMIK</h5>
+                      <hr class="hr" />
+                      <div class="img-rank-container">
+                        <ol>
+                          <a href="" style="text-decoration: none !important">
+                            <li class="listed-rank-card">
+                              <span> <h3>1.</h3></span>
+
+                              <img
+                                src="assets/sololvl.jpg"
+                                alt="sololvl"
+                                class="img-ranking" />
+                              <div class="container-breaker">
+                                <span><p>Solo Leveling</p></span>
+                                <span
+                                  ><p class="base-story-text">
+                                    Genre : Action, Fantasy, Adventure, Romance
+                                  </p></span
+                                >
+                                <span
+                                  ><p class="rating-story-text">
+                                    Rating: 9.4
+                                  </p></span
+                                >
+                              </div>
+                            </li>
+                          </a>
+
+                          <a href="" style="text-decoration: none !important">
+                            <li class="listed-rank-card">
+                              <span> <h3>2.</h3></span>
+
+                              <img
+                                src="assets/apoteosis.jpg"
+                                alt="apoteosis"
+                                class="img-ranking" />
+                              <div class="container-breaker">
+                                <span><p>Apotheosis</p></span>
+                                <span
+                                  ><p class="base-story-text">
+                                    Genre : Action, Fantasy, Adventure, Romance
+                                  </p></span
+                                >
+                                <span
+                                  ><p class="rating-story-text">
+                                    Rating: 9.2
+                                  </p></span
+                                >
+                              </div>
+                            </li>
+                          </a>
+
+                          <a href="" style="text-decoration: none !important">
+                            <li class="listed-rank-card">
+                              <span> <h3>3.</h3></span>
+
+                              <img
+                                src="assets/ranker.jpg"
+                                alt="ranker"
+                                class="img-ranking" />
+                              <div class="container-breaker">
+                                <span
+                                  ><p>Ranker Who Lives a Second Time</p></span
+                                >
+                                <span
+                                  ><p class="base-story-text">
+                                    Genre : Action, Fantasy, Adventure,
+                                    Reincarnation
+                                  </p></span
+                                >
+                                <span
+                                  ><p class="rating-story-text">
+                                    Rating: 9.1
+                                  </p></span
+                                >
+                              </div>
+                            </li>
+                          </a>
+
+                          <a href="" style="text-decoration: none !important">
+                            <li class="listed-rank-card">
+                              <span> <h3>4.</h3></span>
+
+                              <img
+                                src="assets/worn.jpg"
+                                alt="worn"
+                                class="img-ranking" />
+                              <div class="container-breaker">
+                                <span><p>Worn and Torn Newbie</p></span>
+                                <span
+                                  ><p class="base-story-text">
+                                    Genre : Action, Fantasy, Adventure, Game,
+                                    Comedy
+                                  </p></span
+                                >
+                                <span
+                                  ><p class="rating-story-text">
+                                    Rating: 9.0
+                                  </p></span
+                                >
+                              </div>
+                            </li>
+                          </a>
+
+                          <a href="" style="text-decoration: none !important">
+                            <li class="listed-rank-card">
+                              <span> <h3>5.</h3></span>
+
+                              <img
+                                src="assets/magic-emperor.jpg"
+                                alt="magic-emperor"
+                                class="img-ranking" />
+                              <div class="container-breaker">
+                                <span><p>Magic Emperor</p></span>
+                                <span
+                                  ><p class="base-story-text">
+                                    Genre : Action, Fantasy, Adventure,
+                                    Reincarnation
+                                  </p></span
+                                >
+                                <span
+                                  ><p class="rating-story-text">
+                                    Rating: 8.8
+                                  </p></span
+                                >
+                              </div>
+                            </li>
+                          </a>
+                        </ol>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </aside>
+              <!-- end aside -->
+            </div>
+          </div>
+        </article>
+        <!-- end content2 -->
+
+        <section class="profile" id="profile">
+          <div class="card-container">
+            <div class="card2">
+              <h5 class="title">PROFILE</h5>
+              <hr class="hr" />
+              <div class="profile-content">
+                <img
+                  src="assets/profile.jpg"
+                  alt="profile"
+                  style="
+                    max-width: 20vh;
+                    height: auto;
+                    border-radius: 20px;
+                    border: 2px solid black;
+                  " />
+                <div class="text-contain">
+                  <p><b>Name &emsp; &emsp; :</b> Syahrul Bhudi Ferdiansyah</p>
+                  <p>
+                    <b>TTL &emsp; &ensp; &emsp; &nbsp;:</b> Gresik, 13 Januari
+                    2004
+                  </p>
+                  <p><b>Location &emsp; :</b> Malang</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <p>Maos</p>
+      <hr />
+      <p>
+        Semua komik di website ini hanya preview dari komik aslinya, mungkin
+        terdapat banyak kesalahan bahasa, nama tokoh, dan alur cerita. Untuk
+        versi aslinya, silahkan beli komiknya jika tersedia di kotamu.
+      </p>
+    </footer>
+  </body>
+</html>
